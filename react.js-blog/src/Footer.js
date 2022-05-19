@@ -4,7 +4,7 @@ const Footer = () => {
   const getDate = new Date();
   return (
     <div>
-      <p> Copyright @Kasidit {getDate.getTimezoneOffset()}</p>
+      <p> Copyright @Kasidit {getDate.getFullYear()}</p>
     </div>
   );
 };
